@@ -1,0 +1,23 @@
+{
+  "name": "whitebox-challenge",
+  "version": "1.0.0",
+  "description": "Response to whitebox/code-challenge-excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circleofconfusion/whitebox-challenge.git"
+  },
+  "author": "Shane Knudsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/circleofconfusion/whitebox-challenge/issues"
+  },
+  "homepage": "https://github.com/circleofconfusion/whitebox-challenge#readme",
+  "dependencies": {
+    "exceljs": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}
