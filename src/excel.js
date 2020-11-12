@@ -134,6 +134,6 @@ function addInternationalWorksheet(name, rowData) {
   });
 }
 
-async function saveWorkbook() {
-  await workbook.xlsx.writeFile('workbook.xlsx');
+async function saveWorkbook(filename) {
+  await workbook.xlsx.writeFile(filename);
 }

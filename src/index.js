@@ -8,7 +8,7 @@ gatherData().then(([dStd, dExp, dNext, iEcon, iExp]) => {
   excel.addDomesticWorksheet('Domestic Next Day Rates', dNext);
   excel.addInternationalWorksheet('International Economy Rates', iEcon);
   excel.addInternationalWorksheet('International Expedited Rates', iExp);
-  excel.saveWorkbook();
+  excel.saveWorkbook('Rates.xlsx');
 });
 
 async function gatherData() {
