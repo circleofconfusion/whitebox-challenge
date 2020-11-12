@@ -1,4 +1,4 @@
-FROM mysql:8
+FROM mysql:5.7
 ENV MYSQL_RANDOM_ROOT_PASSWORD true
 ENV MYSQL_DATABASE code-challenge
 # Normally, I'd script these so the username/password aren't stored in Git,
