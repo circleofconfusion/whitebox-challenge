@@ -17,6 +17,10 @@ Given more time, I'd have used a more recent version of MYSQL.
 I found that the promise-mysql library for nodeJS doesn't support newer connection
 methods, and some tweaking of the database is necessary to allow it to connect.
 
+Were this a regularly used script, I'd include the ability to pass
+command line arguments so one could, say, set the output filename to
+something other than Rates.xlsx.
+
 ## Setup
 
 I chose to use a docker container for MYSQL so that it can be
