@@ -34,6 +34,10 @@ Run the container with the command
 This set of commands will build a custom docker image, fire up the container,
 and load the example SQL data from data.sql.
 
+To kill the docker container, run
+
+  docker stop whitebox-db
+
 ## Run 
 
 To execute the script, run `npm run start` from the root directory.
