@@ -94,16 +94,16 @@ function addDomesticWorksheet(name, rowData) {
   worksheet.columns = domesticColumns;
   rowData.forEach(row => {
     worksheet.addRow({
-      start_weight: row.start_weight.toString(),
-      end_weight: row.end_weight.toString(),
-      zone_1: row.zone_1.toString(),
-      zone_2: row.zone_2.toString(),
-      zone_3: row.zone_3.toString(),
-      zone_4: row.zone_4.toString(),
-      zone_5: row.zone_5.toString(),
-      zone_6: row.zone_6.toString(),
-      zone_7: row.zone_7.toString(),
-      zone_8: row.zone_8.toString()
+      start_weight: row.start_weight.toFixed(2).toString(),
+      end_weight: row.end_weight.toFixed(2).toString(),
+      zone_1: row.zone_1.toFixed(2).toString(),
+      zone_2: row.zone_2.toFixed(2).toString(),
+      zone_3: row.zone_3.toFixed(2).toString(),
+      zone_4: row.zone_4.toFixed(2).toString(),
+      zone_5: row.zone_5.toFixed(2).toString(),
+      zone_6: row.zone_6.toFixed(2).toString(),
+      zone_7: row.zone_7.toFixed(2).toString(),
+      zone_8: row.zone_8.toFixed(2).toString()
     });
   });
 }
@@ -113,23 +113,23 @@ function addInternationalWorksheet(name, rowData) {
   worksheet.columns = internationalColumns;
   rowData.forEach(row => {
     worksheet.addRow({
-      start_weight: row.start_weight.toString(),
-      end_weight: row.end_weight.toString(),
-      zone_A: row.zone_A.toString(),
-      zone_B: row.zone_B.toString(),
-      zone_C: row.zone_C.toString(),
-      zone_D: row.zone_D.toString(),
-      zone_E: row.zone_E.toString(),
-      zone_F: row.zone_F.toString(),
-      zone_G: row.zone_G.toString(),
-      zone_H: row.zone_H.toString(),
-      zone_I: row.zone_I.toString(),
-      zone_J: row.zone_J.toString(),
-      zone_K: row.zone_K.toString(),
-      zone_L: row.zone_L.toString(),
-      zone_M: row.zone_M.toString(),
-      zone_N: row.zone_N.toString(),
-      zone_O: row.zone_O.toString()
+      start_weight: row.start_weight.toFixed(2).toString(),
+      end_weight: row.end_weight.toFixed(2).toString(),
+      zone_A: row.zone_A.toFixed(2).toString(),
+      zone_B: row.zone_B.toFixed(2).toString(),
+      zone_C: row.zone_C.toFixed(2).toString(),
+      zone_D: row.zone_D.toFixed(2).toString(),
+      zone_E: row.zone_E.toFixed(2).toString(),
+      zone_F: row.zone_F.toFixed(2).toString(),
+      zone_G: row.zone_G.toFixed(2).toString(),
+      zone_H: row.zone_H.toFixed(2).toString(),
+      zone_I: row.zone_I.toFixed(2).toString(),
+      zone_J: row.zone_J.toFixed(2).toString(),
+      zone_K: row.zone_K.toFixed(2).toString(),
+      zone_L: row.zone_L.toFixed(2).toString(),
+      zone_M: row.zone_M.toFixed(2).toString(),
+      zone_N: row.zone_N.toFixed(2).toString(),
+      zone_O: row.zone_O.toFixed(2).toString()
     });
   });
 }
